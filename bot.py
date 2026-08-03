@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO)
 # Токен читается из переменной окружения TELEGRAM_TOKEN (безопасно для Railway).
 # Для запуска на своём компьютере можно временно вписать токен прямо в кавычки ниже.
 TOKEN = os.environ.get("TELEGRAM_TOKEN", "ВСТАВЬ_СЮДА_ТОКЕН_ОТ_BOTFATHER")
- GUIDE_PATH = "Sistema Periodizatsii Guide.pdf" имя файла гайда, должен лежать рядом со скриптом
+ GUIDE_PATH = "Sistema Periodizatsii Guide.pdf" #имя файла гайда, должен лежать рядом со скриптом
 
 WELCOME_TEXT = (
     "Привет! 👋\n\n"
